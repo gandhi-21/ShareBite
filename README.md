@@ -19,3 +19,6 @@ Libraries required to be installed to run the program:
  <br/>Run the crud.py file.
  <br/>You can now access the api endpoints at 
  <br/>“localhost:5000”
+
+
+Also included are screenshots of the api running in Postman
