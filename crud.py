@@ -96,7 +96,7 @@ def menu_item_update(id):
     menu_item_individual = Menu.query.get(id)
     name = request.json['name']
 
-    menu_item_individual.name = name
+    menu_item_individual.menu_items = name
 
     db.session.commit()
     return user_schema.jsonify(menu_item_individual)
